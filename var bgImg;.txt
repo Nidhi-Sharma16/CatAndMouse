@@ -1,0 +1,11 @@
+var bgImg;
+var cat;
+
+function preload(){
+
+    bgImg = LoadImage("garden.png");
+    catImg1 = LoadAnimation("cat1.png");
+    mouseImg1 = LoadAnimation("mouse1.png");
+    catImg2 = LoadAnimation("cat2.png,cat3.png");
+    mouseImg2 =  LoadAnimation("mouse2.png,mouse3.png");
+}
